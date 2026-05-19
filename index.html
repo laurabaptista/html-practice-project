@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Webpage</title>
+</head>
+
+<body>
+
+  <!-- ✅ F) SEMÂNTICA — Header e Nav -->
+  <header>
+    <h1>My First Webpage</h1>
+    <nav>
+      <a href="#sobre">Sobre</a> |
+      <a href="#listas">Listas</a> |
+      <a href="#tabela">Tabela</a> |
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <!-- ✅ F) SEMÂNTICA — Main -->
+  <main>
+
+    <!-- ✅ F) SEMÂNTICA — Article -->
+    <article id="sobre">
+
+      <!-- ✅ B) TEXTO E FORMATAÇÃO -->
+      <section>
+        <h2>Sobre esta página</h2>
+        <h3>Um projeto de prática em HTML</h3>
+
+        <p>
+          Esta é a minha <strong>primeira página web</strong>. Estou a aprender
+          <em>HTML de raiz</em> e a explorar as principais tags disponíveis.
+        </p>
+
+        <p>
+          O HTML é a <span style="color: steelblue;">linguagem de marcação</span>
+          base da web.<br />
+          Sem ele, não existiriam páginas web como as conhecemos.
+        </p>
+
+        <hr />
+      </section>
+
+      <!-- ✅ C) LISTAS -->
+      <section id="listas">
+        <h2>Listas</h2>
+
+        <h3>Tecnologias que estou a aprender (lista não ordenada)</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+        </ul>
+
+        <h3>Passos para criar um site (lista ordenada)</h3>
+        <ol>
+          <li>Criar o ficheiro HTML</li>
+          <li>Adicionar conteúdo e estrutura</li>
+          <li>Estilizar com CSS</li>
+          <li>Publicar online</li>
+        </ol>
+
+        <h3>Glossário rápido (lista de descrição)</h3>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language — estrutura das páginas web</dd>
+
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets — estilo e aparência visual</dd>
+
+          <dt>JavaScript</dt>
+          <dd>Linguagem de programação para interatividade na web</dd>
+        </dl>
+
+        <hr />
+      </section>
+
+      <!-- ✅ D) LINKS E IMAGENS -->
+      <section id="media">
+        <h2>Links e Imagens</h2>
+
+        <p>
+          Visita a documentação oficial do HTML:
+          <a href="https://developer.mozilla.org/pt-PT/docs/Web/HTML" target="_blank">
+            MDN Web Docs — HTML
+          </a>
+        </p>
+
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+          alt="Logótipo oficial do HTML5"
+          width="120"
+        />
+
+        <hr />
+      </section>
+
+      <!-- ✅ E) TABELA -->
+      <section id="tabela">
+        <h2>Tabela — Horário Semanal</h2>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Matéria</th>
+              <th>Hora</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda</td>
+              <td>HTML & CSS</td>
+              <td>10:00 – 12:00</td>
+            </tr>
+            <tr>
+              <td>Terça</td>
+              <td>JavaScript</td>
+              <td>14:00 – 16:00</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>Git & GitHub</td>
+              <td>10:00 – 11:00</td>
+            </tr>
+            <tr>
+              <td>Quinta</td>
+              <td>Projeto Prático</td>
+              <td>09:00 – 12:00</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>Revisão & Apresentação</td>
+              <td>15:00 – 17:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </article>
+
+    <!-- ✅ F) SEMÂNTICA — Aside -->
+    <aside>
+      <h3>💡 Dica</h3>
+      <p>Usa o <strong>VS Code</strong> com a extensão <em>Live Server</em>
+         para veres as alterações em tempo real!</p>
+    </aside>
+
+  </main>
+
+  <!-- ✅ F) SEMÂNTICA — Footer -->
+  <footer>
+    <hr />
+    <p>&copy; 2026 My First Webpage — Feito com HTML puro 🚀</p>
+  </footer>
+
+</body>
+</html>
